@@ -10,6 +10,6 @@ public class HomeController {
     @GetMapping("/")
     @ResponseBody
     public String home(){
-        return "Collaborate with git";
+        return "Cowork with git";
     }
 }
